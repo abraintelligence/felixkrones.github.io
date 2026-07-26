@@ -1,16 +1,8 @@
-// Contact form: builds a mailto link so no backend is needed yet.
+// Shows the success note after the form service redirects back with ?sent=1.
 document.addEventListener('DOMContentLoaded', function () {
-  var form = document.getElementById('contact-form');
-  if (!form) return;
-  form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    var name = form.elements.name.value.trim();
-    var email = form.elements.email.value.trim();
-    var message = form.elements.message.value.trim();
-    var body = message + '\n\n' + name + '\n' + email;
-    var href = 'mailto:' + form.dataset.mailto +
-      '?subject=' + encodeURIComponent(form.dataset.subject) +
-      '&body=' + encodeURIComponent(body);
-    window.location.href = href;
-  });
+  var success = document.querySelector('.form-success');
+  if (success && window.location.search.indexOf('sent=1') !== -1) {
+    success.hidden = false;
+    success.scrollIntoView({ block: 'center' });
+  }
 });

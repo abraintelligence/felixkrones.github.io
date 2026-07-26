@@ -54,7 +54,8 @@ contact:
   email_label: E-Mail
   message_label: Nachricht
   submit: Anfrage senden
-  note: "Das Formular öffnet Ihr E-Mail-Programm. Sie können uns auch direkt schreiben:"
+  note: "Sie können uns auch direkt schreiben:"
+  success: Vielen Dank. Ihre Nachricht wurde gesendet.
   mail_subject: Anfrage Beratungstermin
 cta:
   title: Neugierig, wie das an Ihrer Linie aussehen könnte?

@@ -54,7 +54,8 @@ contact:
   email_label: Email
   message_label: Message
   submit: Send request
-  note: "The form opens your email client. You can also write to us directly:"
+  note: "You can also write to us directly:"
+  success: Thank you. Your message has been sent.
   mail_subject: Consulting session request
 cta:
   title: Curious what this could look like on your line?
