@@ -56,12 +56,13 @@ Company name (currently Aikvora):
 
 Contact email (currently info@felixkrones.de):
 
-- `_config.yml` → `contact_email`: The only place. It feeds the contact form (FormSubmit address), the note under the form and the email links in the imprint pages.
-- After changing it, activate the contact form again: send a test message and click the confirmation link FormSubmit sends to the new address.
+- `_config.yml` → `contact_email`: Shown in the imprint pages only, written with `[at]` instead of `@` to make harvesting harder. There is intentionally no other visible email on the site; contact runs through the form.
+- `_config.yml` → `formsubmit_endpoint`: Where the contact form sends to. It starts as the email address; after activating the form once, replace it with the random alias from FormSubmit so the address also disappears from the page source.
+- After changing the email, activate the contact form again: send a test message and click the confirmation link FormSubmit sends to the new address.
 
 ## Contact form
 
-The form posts to [FormSubmit](https://formsubmit.co/), a free service that forwards each submission as an email to `contact_email`. No account is needed. One-time activation: after the first submission, FormSubmit sends a confirmation email to that address; click the link once and all further messages arrive directly.
+The form posts to [FormSubmit](https://formsubmit.co/), a free service that forwards each submission as an email to the address in `formsubmit_endpoint`. No account is needed. One-time activation: after the first submission, FormSubmit sends a confirmation email to that address; click the link once and all further messages arrive directly. After activation, FormSubmit shows a random alias; put it into `formsubmit_endpoint` in `_config.yml` so the email address no longer appears in the page source.
 
 ## Run locally
 

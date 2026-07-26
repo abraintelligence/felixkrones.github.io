@@ -2,6 +2,10 @@ title: Aikvora
 url: "https://felixkrones.github.io"
 baseurl: ""
 contact_email: info@felixkrones.de
+# The form posts to https://formsubmit.co/<formsubmit_endpoint>. After activating
+# the form once, replace this with the random alias from FormSubmit so the email
+# address no longer appears anywhere in the page source.
+formsubmit_endpoint: info@felixkrones.de
 
 # Languages available on the site (English is served at the root)
 languages: ["en", "de", "pl"]

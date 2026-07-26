@@ -55,7 +55,6 @@ contact:
   email_label: E-mail
   message_label: Wiadomość
   submit: Wyślij zapytanie
-  note: "Możesz też napisać do nas bezpośrednio:"
   success: Dziękujemy. Twoja wiadomość została wysłana.
   mail_subject: Zapytanie o sesję konsultacyjną
 cta:

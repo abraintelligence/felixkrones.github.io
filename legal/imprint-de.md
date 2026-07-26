@@ -18,6 +18,6 @@ Angaben gemäß § 5 DDG.
 
 Vertreten durch: [Name]
 
-Kontakt: [Telefon] · <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+Kontakt: [Telefon] · {{ site.contact_email | replace: "@", " [at] " }}
 
 USt-IdNr.: [Nummer]

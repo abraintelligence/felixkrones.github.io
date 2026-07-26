@@ -54,7 +54,6 @@ contact:
   email_label: Email
   message_label: Message
   submit: Send request
-  note: "You can also write to us directly:"
   success: Thank you. Your message has been sent.
   mail_subject: Consulting session request
 cta:

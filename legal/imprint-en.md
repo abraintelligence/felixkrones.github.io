@@ -18,6 +18,6 @@ Information according to § 5 DDG.
 
 Represented by: [Name]
 
-Contact: [Phone] · <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+Contact: [Phone] · {{ site.contact_email | replace: "@", " [at] " }}
 
 VAT ID: [Number]
