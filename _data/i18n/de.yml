@@ -1,0 +1,64 @@
+lang_name: Deutsch
+nav:
+  how: So funktioniert es
+  use_cases: Anwendungsfälle
+  demos: Demos
+  contact: Kontakt
+hero:
+  kicker: Smart Glasses für die Produktion
+  title: "Fehler dort erkennen, wo sie entstehen: An der Linie"
+  subtitle: >-
+    Aikvora verbindet Smart Glasses mit KI und unterstützt Menschen in der Produktion:
+    Montagefehler erkennen, falsch platzierte Teile finden und jeden Schritt dokumentieren, freihändig.
+  cta_primary: Beratungstermin buchen
+how:
+  title: So funktioniert es
+  steps:
+    - name: Erfassen
+      text: Die Smart Glasses sehen, was die Mitarbeitenden sehen. Keine zusätzlichen Kameras, keine Umbauten an der Linie.
+    - name: Prüfen
+      text: Die KI vergleicht jeden Schritt in Echtzeit mit dem Soll-Prozess und meldet Abweichungen.
+    - name: Unterstützen
+      text: Mitarbeitende erhalten direkt klares Feedback, und jeder Schritt wird automatisch dokumentiert.
+use_cases:
+  title: Anwendungsfälle
+  items:
+    - name: Unterstützung der Line Clearance
+      text: >-
+        Verbleibende Teile erkennen und Kontamination vermeiden. Die KI unterstützt
+        die technische Inspektion vor dem Wiederanlauf der Linie.
+    - name: Geführte Fehlersuche
+      text: >-
+        Kontextbasierte SOP-Anleitung hilft, Störungen schneller zu lösen, und
+        unterstützt Suche und Dokumentation.
+    - name: Produktionsrundgang
+      text: >-
+        Checkpoints werden automatisch erfasst. Rundgänge werden verlässlich und
+        die Dokumentation läuft nebenbei mit.
+demos:
+  title: Live erleben
+  subtitle: Beispielaufnahmen aus echten Prozessen.
+  items:
+    - file: printer
+      name: Drucker
+    - file: verteiler
+      name: Verteiler
+    - file: washing
+      name: Waschen
+contact:
+  title: Beratungstermin buchen
+  text: >-
+    Erzählen Sie uns von Ihrem Produktionsprozess und wo Fehler am meisten wehtun.
+    Wir melden uns bei Ihnen.
+  name_label: Name
+  email_label: E-Mail
+  message_label: Nachricht
+  submit: Anfrage senden
+  note: "Das Formular öffnet Ihr E-Mail-Programm. Sie können uns auch direkt schreiben:"
+  mail_subject: Anfrage Beratungstermin
+cta:
+  title: Neugierig, wie das an Ihrer Linie aussehen könnte?
+footer:
+  imprint: Impressum
+  privacy: Datenschutz
+  rights: Alle Rechte vorbehalten.

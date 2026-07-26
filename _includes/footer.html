@@ -1,0 +1,10 @@
+{%- assign t = include.t -%}
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© 2026 {{ site.title }}. {{ t.footer.rights }}</span>
+    <nav>
+      <a href="{{ site.data.paths[page.lang].imprint | relative_url }}">{{ t.footer.imprint }}</a>
+      <a href="{{ site.data.paths[page.lang].privacy | relative_url }}">{{ t.footer.privacy }}</a>
+    </nav>
+  </div>
+</footer>

@@ -1,0 +1,13 @@
+---
+layout: default
+lang: de
+title: Kontakt
+permalink: /de/kontakt/
+home_url: /de/
+translations:
+  en: /contact/
+  de: /de/kontakt/
+  pl: /pl/kontakt/
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% include contact-form.html t=t %}

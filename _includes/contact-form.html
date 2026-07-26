@@ -1,0 +1,22 @@
+{%- assign t = include.t -%}
+<section class="section contact">
+  <div class="container">
+    <h1>{{ t.contact.title }}</h1>
+    <p class="section-sub">{{ t.contact.text }}</p>
+    <form id="contact-form"
+          data-mailto="{{ site.contact_email }}"
+          data-subject="{{ t.contact.mail_subject }}">
+      <label>{{ t.contact.name_label }}
+        <input type="text" name="name" required>
+      </label>
+      <label>{{ t.contact.email_label }}
+        <input type="email" name="email" required>
+      </label>
+      <label>{{ t.contact.message_label }}
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">{{ t.contact.submit }}</button>
+      <p class="form-note">{{ t.contact.note }} <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+    </form>
+  </div>
+</section>

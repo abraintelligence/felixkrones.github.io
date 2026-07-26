@@ -1,0 +1,21 @@
+---
+layout: page
+title: Privacy policy
+lang: en
+permalink: /privacy/
+home_url: /
+translations:
+  en: /privacy/
+  de: /de/datenschutz/
+  pl: /pl/prywatnosc/
+---
+
+<p class="placeholder">Placeholder: Have this page reviewed and completed before going live.</p>
+
+This website does not use cookies, tracking or analytics tools.
+
+The site is hosted on GitHub Pages (GitHub, Inc.). When you visit the site, GitHub may process technical data such as your IP address in server logs. Details can be found in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>.
+
+If you contact us by email, we process the data you provide (such as your name, email address and message) only to handle your request.
+
+Responsible for data processing: See [imprint]({{ site.data.paths[page.lang].imprint | relative_url }}).

@@ -1,0 +1,16 @@
+title: Aikvora
+url: "https://felixkrones.github.io"
+baseurl: ""
+contact_email: info@felixkrones.de
+
+# Languages available on the site (English is served at the root)
+languages: ["en", "de", "pl"]
+default_lang: "en"
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

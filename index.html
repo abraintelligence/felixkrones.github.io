@@ -1,0 +1,11 @@
+---
+layout: default
+lang: en
+permalink: /
+translations:
+  en: /
+  de: /de/
+  pl: /pl/
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% include landing.html t=t %}

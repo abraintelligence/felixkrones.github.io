@@ -1,0 +1,65 @@
+lang_name: Polski
+nav:
+  how: Jak to działa
+  use_cases: Zastosowania
+  demos: Dema
+  contact: Kontakt
+hero:
+  kicker: Inteligentne okulary dla produkcji
+  title: "Wykrywaj błędy tam, gdzie powstają: Na linii"
+  subtitle: >-
+    Aikvora łączy inteligentne okulary z AI i wspiera ludzi w produkcji:
+    wykrywanie błędów montażu, znajdowanie źle umieszczonych elementów i
+    dokumentowanie każdego kroku, bez użycia rąk.
+  cta_primary: Umów sesję konsultacyjną
+how:
+  title: Jak to działa
+  steps:
+    - name: Rejestrowanie
+      text: Inteligentne okulary widzą to, co widzi pracownik. Bez dodatkowych kamer i bez zmian na linii.
+    - name: Kontrola
+      text: AI porównuje każdy krok z procesem docelowym w czasie rzeczywistym i zgłasza odchylenia.
+    - name: Wsparcie
+      text: Pracownicy od razu otrzymują jasne informacje zwrotne, a każdy krok jest automatycznie dokumentowany.
+use_cases:
+  title: Zastosowania
+  items:
+    - name: Wsparcie line clearance
+      text: >-
+        Wykrywanie pozostałych elementów i unikanie zanieczyszczeń. AI wspiera
+        kontrolę techniczną przed ponownym uruchomieniem linii.
+    - name: Prowadzona diagnostyka usterek
+      text: >-
+        Kontekstowe instrukcje SOP pomagają szybciej usuwać zakłócenia oraz
+        wspierają wyszukiwanie informacji i dokumentację.
+    - name: Obchody produkcyjne
+      text: >-
+        Punkty kontrolne są rejestrowane automatycznie. Obchody stają się
+        niezawodne, a dokumentacja powstaje na bieżąco.
+demos:
+  title: Zobacz w akcji
+  subtitle: Przykładowe nagrania z rzeczywistych procesów.
+  items:
+    - file: printer
+      name: Drukarka
+    - file: verteiler
+      name: Rozdzielnica
+    - file: washing
+      name: Mycie
+contact:
+  title: Umów sesję konsultacyjną
+  text: >-
+    Opowiedz nam o swoim procesie produkcyjnym i o tym, gdzie błędy bolą najbardziej.
+    Odezwiemy się do Ciebie.
+  name_label: Imię i nazwisko
+  email_label: E-mail
+  message_label: Wiadomość
+  submit: Wyślij zapytanie
+  note: "Formularz otworzy Twój program pocztowy. Możesz też napisać do nas bezpośrednio:"
+  mail_subject: Zapytanie o sesję konsultacyjną
+cta:
+  title: Ciekawi Cię, jak mogłoby to wyglądać na Twojej linii?
+footer:
+  imprint: Nota prawna
+  privacy: Polityka prywatności
+  rights: Wszelkie prawa zastrzeżone.

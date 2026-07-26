@@ -1,0 +1,64 @@
+lang_name: English
+nav:
+  how: How it works
+  use_cases: Use cases
+  demos: Demos
+  contact: Contact
+hero:
+  kicker: Smart glasses for production
+  title: "Catch errors where they happen: On the line"
+  subtitle: >-
+    Aikvora combines smart glasses with AI to support people in production:
+    spot assembly errors, detect misplaced items and document every step, hands-free.
+  cta_primary: Book a consulting session
+how:
+  title: How it works
+  steps:
+    - name: Capture
+      text: The smart glasses see what the worker sees. No extra cameras, no changes to the line.
+    - name: Check
+      text: AI compares each step against the target process in real time and flags deviations.
+    - name: Support
+      text: Workers get clear feedback on the spot, and every step is documented automatically.
+use_cases:
+  title: Use cases
+  items:
+    - name: Line clearance support
+      text: >-
+        Detect remaining items and avoid contamination. AI supports the technical
+        inspection before the line restarts.
+    - name: Guided troubleshooting
+      text: >-
+        Context-based SOP guidance helps workers resolve disruptions faster and
+        supports search and documentation.
+    - name: Production rounds
+      text: >-
+        Checkpoints are captured automatically. Rounds become reliable and the
+        documentation happens on the go.
+demos:
+  title: See it in action
+  subtitle: Example recordings from real processes.
+  items:
+    - file: printer
+      name: Printer
+    - file: verteiler
+      name: Distribution box
+    - file: washing
+      name: Washing
+contact:
+  title: Book a consulting session
+  text: >-
+    Tell us about your production process and where errors hurt the most.
+    We will get back to you.
+  name_label: Name
+  email_label: Email
+  message_label: Message
+  submit: Send request
+  note: "The form opens your email client. You can also write to us directly:"
+  mail_subject: Consulting session request
+cta:
+  title: Curious what this could look like on your line?
+footer:
+  imprint: Imprint
+  privacy: Privacy
+  rights: All rights reserved.

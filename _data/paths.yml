@@ -1,0 +1,16 @@
+# Per-language paths for pages that are linked from header and footer.
+en:
+  home: /
+  contact: /contact/
+  imprint: /imprint/
+  privacy: /privacy/
+de:
+  home: /de/
+  contact: /de/kontakt/
+  imprint: /de/impressum/
+  privacy: /de/datenschutz/
+pl:
+  home: /pl/
+  contact: /pl/kontakt/
+  imprint: /pl/nota-prawna/
+  privacy: /pl/prywatnosc/
