@@ -1,8 +1,8 @@
-# Aikvora landing page
+# Abra Intelligence landing page
 
-Landing page for a start-up that uses smart glasses in production environments, for example to spot errors in assembly processes or detect misplaced items. Built with Jekyll and hosted on GitHub Pages at https://felixkrones.github.io/ (custom domain to follow).
+Landing page for Abra Intelligence, a start-up that uses smart glasses in production environments, for example to spot errors in assembly processes or detect misplaced items. Built with Jekyll and hosted on GitHub Pages at https://felixkrones.github.io/ (custom domain to follow).
 
-Aikvora is a working name; see "Changing the company name or contact email" below for every place it appears.
+See "Changing the company name or contact email" below for every place the name appears.
 
 ## Structure
 
@@ -30,14 +30,14 @@ Aikvora is a working name; see "Changing the company name or contact email" belo
 
 - `index.html`, `de/index.html`, `pl/index.html`: One landing page per language (English at the root)
 - `contact.html`, `de/kontakt.html`, `pl/kontakt.html`: Contact page with the booking form
-- `legal/imprint-*.md`, `legal/privacy-*.md`: Imprint and privacy pages per language (placeholders, complete before going live)
+- `legal/imprint-*.md`, `legal/privacy-*.md`: Imprint and privacy pages per language. The imprint pages are currently hidden (`published: false`) until the company details exist
 - `404.html`: Shown when a visitor opens a page that does not exist
 
 **Assets**
 
 - `assets/css/style.css`: The single stylesheet for the whole site
 - `assets/js/main.js`: Small script that shows the success note after the contact form was sent
-- `assets/videos/`: The three compressed demo videos
+- `assets/videos/`: The compressed demo videos
 - `assets/img/`: Favicon and the poster images shown before a video plays
 
 ## Editing content
@@ -46,10 +46,10 @@ All visible text lives in `_data/i18n/en.yml`, `de.yml` and `pl.yml`. Change the
 
 ## Changing the company name or contact email
 
-Company name (currently Aikvora):
+Company name (currently Abra Intelligence):
 
 - `_config.yml` → `title`: Used in the browser tab and the footer copyright
-- `_includes/header.html` → the wordmark text `aikvora` next to the logo
+- `_includes/header.html` → the wordmark text next to the logo
 - `_data/i18n/en.yml`, `de.yml`, `pl.yml` → the name appears once in `hero.subtitle` in each file
 - `legal/imprint-en.md`, `-de.md`, `-pl.md` → the real company name goes into the placeholders
 - `README.md` → title and first paragraph
@@ -78,6 +78,5 @@ Push to the `main` branch of `felixkrones/felixkrones.github.io`. GitHub Pages b
 
 ## Open points before go-live
 
-- Replace the placeholder details in the imprint pages
-- Activate the contact form once (see "Contact form" above)
-- Decide on the final name and domain (Strato), then set `url` in `_config.yml`
+- Fill the imprint pages with the real company details, then re-publish them: set `published: true` in `legal/imprint-*.md` and re-add the footer link in `_includes/footer.html`
+- Set up the custom domain (Strato), then set `url` in `_config.yml`

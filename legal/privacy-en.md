@@ -16,4 +16,3 @@ The site is hosted on GitHub Pages (GitHub, Inc.). When you visit the site, GitH
 
 If you contact us by email or via the contact form, we process the data you provide (such as your name, email address and message) only to handle your request. Messages sent via the contact form are forwarded to our mailbox by FormSubmit (formsubmit.co).
 
-Responsible for data processing: See [imprint]({{ site.data.paths[page.lang].imprint | relative_url }}).

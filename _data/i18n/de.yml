@@ -3,14 +3,14 @@ nav:
   how: So funktioniert es
   use_cases: Anwendungsfälle
   demos: Demos
-  contact: Kontakt
+  contact: Demo buchen
 hero:
   kicker: Smart Glasses für die Produktion
   title: "Fehler dort erkennen, wo sie entstehen: An der Linie"
   subtitle: >-
-    Aikvora verbindet Smart Glasses mit KI und unterstützt Menschen in der Produktion:
+    Abra Intelligence verbindet Smart Glasses mit KI und unterstützt Menschen in der Produktion:
     Montagefehler erkennen, falsch platzierte Teile finden und jeden Schritt dokumentieren, freihändig.
-  cta_primary: Beratungstermin buchen
+  cta_primary: 20-Minuten-Demo buchen
 how:
   title: So funktioniert es
   steps:
@@ -23,14 +23,25 @@ how:
 use_cases:
   title: Anwendungsfälle
   items:
-    - name: Unterstützung der Line Clearance
+    - name: Prozessüberwachung
       text: >-
-        Verbleibende Teile erkennen und Kontamination vermeiden. Die KI unterstützt
-        die technische Inspektion vor dem Wiederanlauf der Linie.
+        Sehen, ob SOPs Schritt für Schritt eingehalten werden, und Abweichungen
+        sofort erkennen.
     - name: Geführte Fehlersuche
       text: >-
         Kontextbasierte SOP-Anleitung hilft, Störungen schneller zu lösen, und
         unterstützt Suche und Dokumentation.
+    - name: Line Clearance
+      text: >-
+        Verbleibende Teile erkennen und Kontamination vermeiden. Die KI unterstützt
+        die technische Inspektion vor dem Wiederanlauf der Linie.
+    - name: SOP-Erstellung
+      text: >-
+        Aus Aufnahmen der echten Arbeit entstehen SOP-Entwürfe, die Dokumentation
+        hält mit dem Prozess Schritt.
+    - name: Arbeitssicherheit
+      text: >-
+        Eine Warnung, bevor ein sicherheitskritischer Fehler passiert, nicht danach.
     - name: Produktionsrundgang
       text: >-
         Checkpoints werden automatisch erfasst. Rundgänge werden verlässlich und
@@ -41,21 +52,20 @@ demos:
   items:
     - file: printer
       name: Drucker
-    - file: verteiler
-      name: Verteiler
     - file: washing
       name: Waschen
 contact:
-  title: Beratungstermin buchen
+  title: 20-Minuten-Demo buchen
   text: >-
-    Erzählen Sie uns von Ihrem Produktionsprozess und wo Fehler am meisten wehtun.
-    Wir melden uns bei Ihnen.
+    Ein kurzes Gespräch über Ihren Prozess und darüber, was die Brillen an Ihrer
+    Linie erkennen würden. Schreiben Sie uns, was Sie produzieren, und wir melden
+    uns mit einem Terminvorschlag.
   name_label: Name
   email_label: E-Mail
   message_label: Nachricht
   submit: Anfrage senden
   success: Vielen Dank. Ihre Nachricht wurde gesendet.
-  mail_subject: Anfrage Beratungstermin
+  mail_subject: Anfrage Demo-Termin
 cta:
   title: Neugierig, wie das an Ihrer Linie aussehen könnte?
 footer:

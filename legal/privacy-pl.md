@@ -16,4 +16,3 @@ Strona jest hostowana w GitHub Pages (GitHub, Inc.). Podczas odwiedzin GitHub mo
 
 Jeśli skontaktujesz się z nami e-mailem lub przez formularz kontaktowy, przetwarzamy podane dane (np. imię i nazwisko, adres e-mail i wiadomość) wyłącznie w celu obsługi zapytania. Wiadomości z formularza kontaktowego są przekazywane do naszej skrzynki przez FormSubmit (formsubmit.co).
 
-Administrator danych: Zobacz [nota prawna]({{ site.data.paths[page.lang].imprint | relative_url }}).

@@ -16,4 +16,3 @@ Die Seite wird über GitHub Pages (GitHub, Inc.) gehostet. Beim Besuch der Seite
 
 Wenn Sie uns per E-Mail oder über das Kontaktformular kontaktieren, verarbeiten wir die von Ihnen angegebenen Daten (etwa Name, E-Mail-Adresse und Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage. Nachrichten aus dem Kontaktformular werden über FormSubmit (formsubmit.co) an unser Postfach weitergeleitet.
 
-Verantwortlich für die Datenverarbeitung: Siehe [Impressum]({{ site.data.paths[page.lang].imprint | relative_url }}).

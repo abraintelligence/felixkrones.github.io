@@ -3,14 +3,14 @@ nav:
   how: How it works
   use_cases: Use cases
   demos: Demos
-  contact: Contact
+  contact: Book a demo
 hero:
   kicker: Smart glasses for production
   title: "Catch errors where they happen: On the line"
   subtitle: >-
-    Aikvora combines smart glasses with AI to support people in production:
+    Abra Intelligence combines smart glasses with AI to support people in production:
     spot assembly errors, detect misplaced items and document every step, hands-free.
-  cta_primary: Book a consulting session
+  cta_primary: Book a 20-minute demo
 how:
   title: How it works
   steps:
@@ -23,14 +23,24 @@ how:
 use_cases:
   title: Use cases
   items:
-    - name: Line clearance support
+    - name: Process monitoring
       text: >-
-        Detect remaining items and avoid contamination. AI supports the technical
-        inspection before the line restarts.
+        See whether SOPs are followed step by step and spot deviations as they happen.
     - name: Guided troubleshooting
       text: >-
         Context-based SOP guidance helps workers resolve disruptions faster and
         supports search and documentation.
+    - name: Line clearance
+      text: >-
+        Detect remaining items and avoid contamination. AI supports the technical
+        inspection before the line restarts.
+    - name: SOP generation
+      text: >-
+        Turn recordings of the real work into SOP drafts, so documentation keeps
+        up with the process.
+    - name: Worker safety
+      text: >-
+        An alert before a safety-critical mistake happens, not after.
     - name: Production rounds
       text: >-
         Checkpoints are captured automatically. Rounds become reliable and the
@@ -41,21 +51,19 @@ demos:
   items:
     - file: printer
       name: Printer
-    - file: verteiler
-      name: Distribution box
     - file: washing
       name: Washing
 contact:
-  title: Book a consulting session
+  title: Book a 20-minute demo
   text: >-
-    Tell us about your production process and where errors hurt the most.
-    We will get back to you.
+    A short call on your process and what the glasses would catch on your line.
+    Tell us what you produce and we will get back to you with a slot.
   name_label: Name
   email_label: Email
   message_label: Message
   submit: Send request
   success: Thank you. Your message has been sent.
-  mail_subject: Consulting session request
+  mail_subject: Demo request
 cta:
   title: Curious what this could look like on your line?
 footer:

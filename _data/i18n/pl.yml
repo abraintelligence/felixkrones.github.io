@@ -3,15 +3,15 @@ nav:
   how: Jak to działa
   use_cases: Zastosowania
   demos: Dema
-  contact: Kontakt
+  contact: Umów demo
 hero:
   kicker: Inteligentne okulary dla produkcji
   title: "Wykrywaj błędy tam, gdzie powstają: Na linii"
   subtitle: >-
-    Aikvora łączy inteligentne okulary z AI i wspiera ludzi w produkcji:
+    Abra Intelligence łączy inteligentne okulary z AI i wspiera ludzi w produkcji:
     wykrywanie błędów montażu, znajdowanie źle umieszczonych elementów i
     dokumentowanie każdego kroku, bez użycia rąk.
-  cta_primary: Umów sesję konsultacyjną
+  cta_primary: Umów 20-minutowe demo
 how:
   title: Jak to działa
   steps:
@@ -24,14 +24,26 @@ how:
 use_cases:
   title: Zastosowania
   items:
-    - name: Wsparcie line clearance
+    - name: Monitorowanie procesu
       text: >-
-        Wykrywanie pozostałych elementów i unikanie zanieczyszczeń. AI wspiera
-        kontrolę techniczną przed ponownym uruchomieniem linii.
+        Sprawdzaj, czy procedury SOP są przestrzegane krok po kroku, i od razu
+        wychwytuj odchylenia.
     - name: Prowadzona diagnostyka usterek
       text: >-
         Kontekstowe instrukcje SOP pomagają szybciej usuwać zakłócenia oraz
         wspierają wyszukiwanie informacji i dokumentację.
+    - name: Line clearance
+      text: >-
+        Wykrywanie pozostałych elementów i unikanie zanieczyszczeń. AI wspiera
+        kontrolę techniczną przed ponownym uruchomieniem linii.
+    - name: Tworzenie SOP
+      text: >-
+        Z nagrań rzeczywistej pracy powstają projekty SOP, dokumentacja nadąża
+        za procesem.
+    - name: Bezpieczeństwo pracowników
+      text: >-
+        Ostrzeżenie, zanim dojdzie do błędu krytycznego dla bezpieczeństwa,
+        a nie po fakcie.
     - name: Obchody produkcyjne
       text: >-
         Punkty kontrolne są rejestrowane automatycznie. Obchody stają się
@@ -42,21 +54,19 @@ demos:
   items:
     - file: printer
       name: Drukarka
-    - file: verteiler
-      name: Rozdzielnica
     - file: washing
       name: Mycie
 contact:
-  title: Umów sesję konsultacyjną
+  title: Umów 20-minutowe demo
   text: >-
-    Opowiedz nam o swoim procesie produkcyjnym i o tym, gdzie błędy bolą najbardziej.
-    Odezwiemy się do Ciebie.
+    Krótka rozmowa o Twoim procesie i o tym, co okulary wychwyciłyby na Twojej
+    linii. Napisz nam, co produkujesz, a odezwiemy się z propozycją terminu.
   name_label: Imię i nazwisko
   email_label: E-mail
   message_label: Wiadomość
   submit: Wyślij zapytanie
   success: Dziękujemy. Twoja wiadomość została wysłana.
-  mail_subject: Zapytanie o sesję konsultacyjną
+  mail_subject: Prośba o demo
 cta:
   title: Ciekawi Cię, jak mogłoby to wyglądać na Twojej linii?
 footer:

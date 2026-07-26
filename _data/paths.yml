@@ -1,4 +1,6 @@
 # Per-language paths for pages that are linked from header and footer.
+# Note: The imprint pages are currently unpublished (published: false) and
+# not linked in the footer; the paths stay here for when they return.
 en:
   home: /
   contact: /contact/
