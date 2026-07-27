@@ -54,6 +54,8 @@ demos:
       name: Drucker
     - file: washing
       name: Waschen
+    - youtube: fUKNqWcTvko
+      name: OperatorLens
 contact:
   title: 20-Minuten-Demo buchen
   text: >-

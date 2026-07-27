@@ -53,6 +53,8 @@ demos:
       name: Printer
     - file: washing
       name: Washing
+    - youtube: fUKNqWcTvko
+      name: OperatorLens
 contact:
   title: Book a 20-minute demo
   text: >-

@@ -13,13 +13,19 @@
 
 <section id="demos" class="demos-strip" aria-label="{{ t.demos.title }}">
   <div class="container">
-    <div class="grid grid-2">
+    <div class="grid grid-3">
       {%- for demo in t.demos.items %}
       <figure class="demo">
+        {%- if demo.youtube %}
+        <iframe src="https://www.youtube-nocookie.com/embed/{{ demo.youtube }}"
+                title="{{ demo.name }}" loading="lazy"
+                allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+        {%- else %}
         <video controls muted playsinline preload="metadata"
                poster="{{ '/assets/img/poster-' | append: demo.file | append: '.jpg' | relative_url }}">
           <source src="{{ '/assets/videos/' | append: demo.file | append: '.mp4' | relative_url }}" type="video/mp4">
         </video>
+        {%- endif %}
         <figcaption>{{ demo.name }}</figcaption>
       </figure>
       {%- endfor %}
