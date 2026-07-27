@@ -4,12 +4,12 @@ permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{%- assign skip = "/404.html|/robots.txt|/sitemap.xml|/llms.txt" | split: "|" %}
 {%- for p in site.pages %}
-{%- unless skip contains p.url %}
+{%- assign last_char = p.url | slice: -1 %}
+{%- if last_char == "/" %}
   <url>
     <loc>{{ p.url | absolute_url }}</loc>
   </url>
-{%- endunless %}
+{%- endif %}
 {%- endfor %}
 </urlset>
