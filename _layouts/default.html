@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 {%- assign t = site.data.i18n[page.lang] -%}
+{%- capture page_title %}{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · {{ t.hero.kicker }}{% endif %}{% endcapture -%}
+{%- capture page_description %}{{ t.hero.subtitle | strip_newlines | strip | truncate: 160 }}{% endcapture -%}
 <html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · {{ t.hero.kicker }}{% endif %}</title>
-  <meta name="description" content="{{ t.hero.subtitle | strip_newlines | truncate: 160 }}">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
   {%- for l in site.languages %}
   <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ page.translations[l] }}">
   {%- endfor %}
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/og-image.png' | absolute_url }}">
+  <meta property="og:locale" content="{% case page.lang %}{% when 'de' %}de_DE{% when 'pl' %}pl_PL{% else %}en_US{% endcase %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}/",
+    "logo": "{{ '/assets/img/og-image.png' | absolute_url }}",
+    "description": "{{ page_description }}"
+  }
+  </script>
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

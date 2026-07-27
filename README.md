@@ -32,13 +32,15 @@ See "Changing the company name or contact email" below for every place the name 
 - `contact.html`, `de/kontakt.html`, `pl/kontakt.html`: Contact page with the booking form
 - `legal/imprint-*.md`, `legal/privacy-*.md`: Imprint and privacy pages per language. The imprint pages are currently hidden (`published: false`) until the company details exist
 - `404.html`: Shown when a visitor opens a page that does not exist
+- `sitemap.xml`, `robots.txt`: Page list for search engines and crawler rules (all crawlers allowed, including AI crawlers)
+- `llms.txt`: Short summary of the company and site for AI assistants and answer engines
 
 **Assets**
 
 - `assets/css/style.css`: The single stylesheet for the whole site
 - `assets/js/main.js`: Small script that shows the success note after the contact form was sent
 - `assets/videos/`: The compressed demo videos
-- `assets/img/`: Favicon and the poster images shown before a video plays
+- `assets/img/`: Favicon, the poster images shown before a video plays and the social preview card (`og-image.png`)
 
 ## Editing content
 
