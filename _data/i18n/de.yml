@@ -23,7 +23,7 @@ how:
 use_cases:
   title: Anwendungsfälle
   items:
-    - name: Prozessüberwachung
+    - name: Prozessmonitoring
       text: >-
         Sehen, ob SOPs Schritt für Schritt eingehalten werden, und Abweichungen
         sofort erkennen.
@@ -42,9 +42,9 @@ use_cases:
     - name: Arbeitssicherheit
       text: >-
         Eine Warnung, bevor ein sicherheitskritischer Fehler passiert, nicht danach.
-    - name: Produktionsrundgang
+    - name: Inspektionsrunden
       text: >-
-        Checkpoints werden automatisch erfasst. Rundgänge werden verlässlich und
+        Checkpoints werden automatisch erfasst. Die Runden werden verlässlich und
         die Dokumentation läuft nebenbei mit.
 demos:
   title: Live erleben
