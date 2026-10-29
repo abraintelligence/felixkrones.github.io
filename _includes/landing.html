@@ -46,6 +46,9 @@
       </div>
       {%- endfor %}
     </div>
+    {%- if t.how.trust %}
+    <p class="trust-line"><strong>{{ t.how.trust.title }}:</strong> {{ t.how.trust.text }}</p>
+    {%- endif %}
   </div>
 </section>
 

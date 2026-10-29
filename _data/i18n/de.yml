@@ -4,22 +4,34 @@ nav:
   use_cases: Anwendungsfälle
   demos: Demos
   contact: Demo buchen
+meta_description: >-
+  Kontextbezogene KI für manuelle Tätigkeiten: Abra sieht, was die Mitarbeitenden
+  sehen, kennt den Ablauf und erkennt Fehler, bevor sie teuer werden.
 hero:
-  kicker: Smart Glasses für die Produktion
-  title: "Fehler dort erkennen, wo sie entstehen: An der Linie"
+  kicker: Kontextbezogene KI für manuelle Tätigkeiten
+  title: KI, die manuelle Arbeit in Echtzeit unterstützt
   subtitle: >-
-    Abra Intelligence verbindet Smart Glasses mit KI und unterstützt Menschen in der Produktion:
-    Montagefehler erkennen, falsch platzierte Teile finden und jeden Schritt dokumentieren, freihändig.
+    Wie die Arbeit richtig gemacht wird, steht im SOP-Ordner oder steckt im Kopf
+    erfahrener Fachkräfte. Abra bringt dieses Wissen direkt an den Arbeitsplatz:
+    Es sieht, was die Mitarbeitenden sehen, kennt den Ablauf und erkennt Fehler,
+    bevor sie teuer werden.
   cta_primary: 20-Minuten-Demo buchen
 how:
   title: So funktioniert es
   steps:
-    - name: Erfassen
-      text: Die Smart Glasses sehen, was die Mitarbeitenden sehen. Keine zusätzlichen Kameras, keine Umbauten an der Linie.
-    - name: Prüfen
-      text: Die KI vergleicht jeden Schritt in Echtzeit mit dem Soll-Prozess und meldet Abweichungen.
-    - name: Unterstützen
-      text: Mitarbeitende erhalten direkt klares Feedback, und jeder Schritt wird automatisch dokumentiert.
+    - name: Kontext
+      text: >-
+        Abra erhält SOPs, Handbücher, Sprachnotizen von Fachleuten und eine
+        Aufnahme der richtig ausgeführten Arbeit. Eingerichtet in Tagen statt Monaten.
+    - name: Sehen
+      text: Abra sieht die Arbeit über Smart Glasses, ein Smartphone oder eine Bodycam.
+    - name: Erkennen
+      text: >-
+        Abra meldet in Echtzeit einen fehlenden Schritt, ein falsches Teil oder
+        einen vergessenen Gegenstand und dokumentiert jeden Schritt automatisch.
+  trust:
+    title: Unterstützung statt Kontrolle
+    text: keine individuelle Leistungsbewertung, die Entscheidung liegt immer bei den Mitarbeitenden.
 use_cases:
   title: Anwendungsfälle
   items:
@@ -42,10 +54,9 @@ use_cases:
     - name: Arbeitssicherheit
       text: >-
         Eine Warnung, bevor ein sicherheitskritischer Fehler passiert, nicht danach.
-    - name: Inspektionsrunden
+    - name: Freihändige Dokumentation
       text: >-
-        Checkpoints werden automatisch erfasst. Die Runden werden verlässlich und
-        die Dokumentation läuft nebenbei mit.
+        Ergebnisse einsprechen und das ausgefüllte Protokoll erhalten.
 demos:
   title: Live erleben
   subtitle: Beispielaufnahmen aus echten Prozessen.
@@ -59,9 +70,9 @@ demos:
 contact:
   title: 20-Minuten-Demo buchen
   text: >-
-    Ein kurzes Gespräch über Ihren Prozess und darüber, was die Brillen an Ihrer
-    Linie erkennen würden. Schreiben Sie uns, was Sie produzieren, und wir melden
-    uns mit einem Terminvorschlag.
+    Ein kurzes Gespräch über Ihren Prozess und darüber, was Abra dort erkennen
+    würde. Erzählen Sie uns kurz von der Arbeit, die Sie unterstützen möchten,
+    und wir melden uns mit einem Terminvorschlag.
   name_label: Name
   email_label: E-Mail
   message_label: Nachricht
@@ -69,7 +80,7 @@ contact:
   success: Vielen Dank. Ihre Nachricht wurde gesendet.
   mail_subject: Anfrage Demo-Termin
 cta:
-  title: Neugierig, wie das an Ihrer Linie aussehen könnte?
+  title: Neugierig, wie das in Ihrem Prozess aussehen könnte?
 footer:
   imprint: Impressum
   privacy: Datenschutz

@@ -4,7 +4,14 @@ permalink: /llms.txt
 ---
 # Abra Intelligence
 
-> Abra Intelligence combines smart glasses with AI to support people in production: spot assembly errors, detect misplaced items and document every step, hands-free. The smart glasses see what the worker sees; AI compares each step against the target process in real time; workers get clear feedback on the spot and every step is documented automatically.
+> Abra Intelligence is contextual AI for hands-on work. The right way to do the job lives in an SOP binder or in an expert's head; Abra brings it to the job: it sees what the worker sees, knows the procedure, and catches mistakes before they cost you. Smart glasses are one way to use it, not the product.
+
+## How it works
+
+- Context: give it the SOPs, manuals, expert voice notes and a recording of the job done right; set up in days, not months
+- See: it sees the work through smart glasses, a phone or a body camera
+- Catch: it flags a missed step, a wrong part or a leftover item in real time, and documents every step automatically
+- Support, not surveillance: no individual performance scoring, the operator always decides
 
 ## Use cases
 
@@ -13,10 +20,10 @@ permalink: /llms.txt
 - Line clearance: detect remaining items and avoid contamination before the line restarts
 - SOP generation: turn recordings of the real work into SOP drafts
 - Worker safety: an alert before a safety-critical mistake happens, not after
-- Production rounds: checkpoints are captured automatically, documentation happens on the go
+- Hands-free documentation: speak the results and get the filled-in protocol
 
 ## Pages
 
 - [Home (English)]({{ "/" | absolute_url }}): landing page with demo videos
 - [Deutsch]({{ "/de/" | absolute_url }}) and [Polski]({{ "/pl/" | absolute_url }}): the same content in German and Polish
-- [Book a 20-minute demo]({{ "/contact/" | absolute_url }}): contact form to see the glasses on your own process
+- [Book a 20-minute demo]({{ "/contact/" | absolute_url }}): contact form to see Abra on your own process

@@ -4,23 +4,34 @@ nav:
   use_cases: Zastosowania
   demos: Dema
   contact: Umów demo
+meta_description: >-
+  Kontekstowa AI do pracy manualnej: Abra widzi to, co widzi pracownik, zna
+  procedurę i wychwytuje błędy, zanim staną się kosztowne.
 hero:
-  kicker: Inteligentne okulary dla produkcji
-  title: "Wykrywaj błędy tam, gdzie powstają: Na linii"
+  kicker: Kontekstowa AI do pracy manualnej
+  title: AI, która wspiera pracę manualną w czasie rzeczywistym
   subtitle: >-
-    Abra Intelligence łączy inteligentne okulary z AI i wspiera ludzi w produkcji:
-    wykrywanie błędów montażu, znajdowanie źle umieszczonych elementów i
-    dokumentowanie każdego kroku, bez użycia rąk.
+    Właściwy sposób wykonania pracy jest zapisany w segregatorze z procedurami SOP
+    albo tkwi w głowie eksperta. Abra przenosi tę wiedzę bezpośrednio na stanowisko
+    pracy: widzi to, co widzi pracownik, zna procedurę i wychwytuje błędy, zanim
+    staną się kosztowne.
   cta_primary: Umów 20-minutowe demo
 how:
   title: Jak to działa
   steps:
-    - name: Rejestrowanie
-      text: Inteligentne okulary widzą to, co widzi pracownik. Bez dodatkowych kamer i bez zmian na linii.
-    - name: Kontrola
-      text: AI porównuje każdy krok z procesem docelowym w czasie rzeczywistym i zgłasza odchylenia.
-    - name: Wsparcie
-      text: Pracownicy od razu otrzymują jasne informacje zwrotne, a każdy krok jest automatycznie dokumentowany.
+    - name: Kontekst
+      text: >-
+        Abra otrzymuje procedury SOP, instrukcje, notatki głosowe ekspertów i
+        nagranie prawidłowo wykonanej pracy. Gotowe do pracy w ciągu dni, a nie miesięcy.
+    - name: Obraz
+      text: Abra widzi pracę przez inteligentne okulary, telefon lub kamerę nasobną.
+    - name: Wykrywanie
+      text: >-
+        Abra w czasie rzeczywistym zgłasza pominięty krok, niewłaściwą część lub
+        pozostawiony przedmiot i automatycznie dokumentuje każdy krok.
+  trust:
+    title: Wsparcie, nie nadzór
+    text: bez indywidualnej oceny wydajności, decyzja zawsze należy do operatora.
 use_cases:
   title: Zastosowania
   items:
@@ -44,10 +55,9 @@ use_cases:
       text: >-
         Ostrzeżenie, zanim dojdzie do błędu krytycznego dla bezpieczeństwa,
         a nie po fakcie.
-    - name: Obchody produkcyjne
+    - name: Dokumentacja bez użycia rąk
       text: >-
-        Punkty kontrolne są rejestrowane automatycznie. Obchody stają się
-        niezawodne, a dokumentacja powstaje na bieżąco.
+        Podyktuj wyniki i otrzymaj wypełniony protokół.
 demos:
   title: Zobacz w akcji
   subtitle: Przykładowe nagrania z rzeczywistych procesów.
@@ -61,8 +71,9 @@ demos:
 contact:
   title: Umów 20-minutowe demo
   text: >-
-    Krótka rozmowa o Twoim procesie i o tym, co okulary wychwyciłyby na Twojej
-    linii. Napisz nam, co produkujesz, a odezwiemy się z propozycją terminu.
+    Krótka rozmowa o Twoim procesie i o tym, co Abra mogłaby w nim wychwycić.
+    Opowiedz nam krótko o pracy, którą chcesz wspierać, a odezwiemy się z
+    propozycją terminu.
   name_label: Imię i nazwisko
   email_label: E-mail
   message_label: Wiadomość
@@ -70,7 +81,7 @@ contact:
   success: Dziękujemy. Twoja wiadomość została wysłana.
   mail_subject: Prośba o demo
 cta:
-  title: Ciekawi Cię, jak mogłoby to wyglądać na Twojej linii?
+  title: Ciekawi Cię, jak mogłoby to wyglądać w Twoim procesie?
 footer:
   imprint: Nota prawna
   privacy: Polityka prywatności

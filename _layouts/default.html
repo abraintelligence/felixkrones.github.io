@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- capture page_title %}{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · {{ t.hero.kicker }}{% endif %}{% endcapture -%}
-{%- capture page_description %}{{ t.hero.subtitle | strip_newlines | strip | truncate: 160 }}{% endcapture -%}
+{%- capture page_description %}{% if t.meta_description %}{{ t.meta_description | strip_newlines | strip }}{% else %}{{ t.hero.subtitle | strip_newlines | strip | truncate: 160 }}{% endif %}{% endcapture -%}
 <html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8">

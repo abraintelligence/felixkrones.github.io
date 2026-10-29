@@ -32,7 +32,7 @@ body {
 }
 
 h1, h2, h3 { line-height: 1.2; margin: 0 0 0.5em; }
-h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; letter-spacing: -0.02em; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; letter-spacing: -0.02em; text-wrap: balance; }
 h2 { font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 700; letter-spacing: -0.01em; }
 h3 { font-size: 1.05rem; font-weight: 600; }
 
@@ -208,6 +208,16 @@ h3 { font-size: 1.05rem; font-weight: 600; }
   font-size: 0.85rem;
   margin-bottom: 12px;
 }
+
+/* Trust line below the steps */
+.trust-line {
+  margin: 36px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+.trust-line strong { color: var(--ink); }
 
 /* Use cases: thin rule instead of boxes */
 .usecase { border-top: 2px solid var(--accent); padding-top: 16px; }

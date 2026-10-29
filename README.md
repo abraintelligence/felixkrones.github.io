@@ -1,6 +1,6 @@
 # Abra Intelligence landing page
 
-Landing page for Abra Intelligence, a start-up that uses smart glasses in production environments, for example to spot errors in assembly processes or detect misplaced items. Built with Jekyll and hosted on GitHub Pages at https://felixkrones.github.io/ (custom domain to follow).
+Landing page for Abra Intelligence, a start-up building contextual AI for hands-on work: it sees what the worker sees (through smart glasses, a phone or a body camera), knows the procedure and catches mistakes as they happen. Built with Jekyll and hosted on GitHub Pages at https://felixkrones.github.io/ (custom domain to follow).
 
 See "Changing the company name or contact email" below for every place the name appears.
 

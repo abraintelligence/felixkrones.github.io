@@ -4,22 +4,34 @@ nav:
   use_cases: Use cases
   demos: Demos
   contact: Book a demo
+meta_description: >-
+  Contextual AI for hands-on work: Abra sees what the worker sees, knows the
+  procedure and catches mistakes before they cost you.
 hero:
-  kicker: Smart glasses for production
-  title: "Catch errors where they happen: On the line"
+  kicker: Contextual AI for hands-on work
+  # "hands‑on" below uses a non-breaking hyphen (U+2011) so the headline never breaks after "hands-".
+  title: AI that supports hands‑on work as it happens
   subtitle: >-
-    Abra Intelligence combines smart glasses with AI to support people in production:
-    spot assembly errors, detect misplaced items and document every step, hands-free.
+    The right way to do the job lives in an SOP binder or in an expert's head.
+    Abra brings it to the job: it sees what the worker sees, knows the procedure,
+    and catches mistakes before they cost you.
   cta_primary: Book a 20-minute demo
 how:
   title: How it works
   steps:
-    - name: Capture
-      text: The smart glasses see what the worker sees. No extra cameras, no changes to the line.
-    - name: Check
-      text: AI compares each step against the target process in real time and flags deviations.
-    - name: Support
-      text: Workers get clear feedback on the spot, and every step is documented automatically.
+    - name: Context
+      text: >-
+        Give it the SOPs, manuals, expert voice notes and a recording of the job
+        done right. Set up in days, not months.
+    - name: See
+      text: It sees the work through smart glasses, a phone or a body camera.
+    - name: Catch
+      text: >-
+        It flags a missed step, a wrong part or a leftover item in real time, and
+        documents every step automatically.
+  trust:
+    title: Support, not surveillance
+    text: no individual performance scoring, the operator always decides.
 use_cases:
   title: Use cases
   items:
@@ -41,10 +53,9 @@ use_cases:
     - name: Worker safety
       text: >-
         An alert before a safety-critical mistake happens, not after.
-    - name: Production rounds
+    - name: Hands-free documentation
       text: >-
-        Checkpoints are captured automatically. Rounds become reliable and the
-        documentation happens on the go.
+        Speak the results and get the filled-in protocol.
 demos:
   title: See it in action
   subtitle: Example recordings from real processes.
@@ -58,8 +69,9 @@ demos:
 contact:
   title: Book a 20-minute demo
   text: >-
-    A short call on your process and what the glasses would catch on your line.
-    Tell us what you produce and we will get back to you with a slot.
+    A short call on your process and what Abra would catch in it. Tell us a
+    little about the work you want to support and we will get back to you with
+    a slot.
   name_label: Name
   email_label: Email
   message_label: Message
@@ -67,7 +79,7 @@ contact:
   success: Thank you. Your message has been sent.
   mail_subject: Demo request
 cta:
-  title: Curious what this could look like on your line?
+  title: Curious what this could look like in your process?
 footer:
   imprint: Imprint
   privacy: Privacy
